@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converção para segundos</title>
+</head>
+<body>
+    <h1>Converção para Segundos</h1>
+    <div id="resultado"></div>
+ <script>
+    let hora = Number (prompt("Digite Horas"));
+    let min =  Number (prompt("Digite Minutos"));
+    let seg =  Number (prompt("Digite Segundos"));
+
+    let total = ((hora*3600) + (min * 60) + (seg * 60));
+
+    document.getElementById("resultado").innerHTML = "O Horário informado " + hora + " hora(s)</br>" + min +  " Minuto(s) " + seg + " Segundos</br>" + "Corresponde a " + total + " Segundos";
+ </script>   
+</body>
+</html>

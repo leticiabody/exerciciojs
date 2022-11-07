@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Impressão e Cadastro de disciplina escolar</h1>
+     
+    <div id="aprovação"></div>
+    
+    <script>
+        let disciplina = prompt ("Digite o nome da disciplina");
+        let frequencia = prompt ("Digite a frequência");
+        let descricao = prompt ("Digite a descrição");
+        let Me = prompt ("Digite Média minima");
+        /*Aqui daria pra por um teste lógico com condção(Média minima "Me" >= 7. Sete 7 é a média minima para aprovação) */
+
+        document.getElementById("aprovação").innerHTML = "Disciplina: " + disciplina +  "</br>Descrição da disciplina: " + descricao + " </br>Média minima para aprovação" + Me;
+    </script>
+
+</body>
+</html>

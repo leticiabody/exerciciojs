@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média aritimética Disciplina</title>
+</head>
+<body>
+        <h1>----Dados de um aluno----</h1>
+        <div id="mediaAluno"></div>
+    <script>
+
+        let nomeAluno = prompt("Digite o nome do Aluno");
+        let disciplina = prompt("Digite o nome da Disciplina");
+        let n1 = Number(prompt("Digite primeira nota"));
+        let n2 = Number(prompt("Digite segunda nota"));
+        let n3 = Number(prompt("Digite terceira nota"));
+        let media = (n1 + n2 + n3 ) /3;
+
+        document.getElementById("mediaAluno").innerHTML = "Aluno: " + nomeAluno + " Disciplina: " + disciplina + " Primeira Nota: " + n1 + " Segunda Nota: " +  n2 + " Terceira Nota: " + n3 + " Média Aritmética: " + media;
+        
+    </script>
+
+
+</body>
+</html>

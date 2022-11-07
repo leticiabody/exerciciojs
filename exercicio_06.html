@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total mensal Loja</title>
+</head>
+<body>
+    <H1>Relatório Anual</H1>
+    <div id="valores"></div>
+    <script>
+    let nome = (prompt("Digite nome da Loja"));
+    let M1 = Number(prompt("Digite total Mês 1"));
+    let M2 = Number(prompt("Digite total Mês 2"));
+    let M3 = Number(prompt("Digite total Mês 3"));
+    let M4 = Number(prompt ("Digite total Mês 4"));
+    let M5 = Number(prompt("Digite total Mês 5"));
+    let M6 = Number(prompt("Digite total Mês 6"));
+    let M7 = Number(prompt("Digite total Mês 7"));
+    let M8 = Number(prompt("Digite total Mês 8"));
+    let M9 = Number(prompt("Digite total Mês 9"));
+    let M10 = Number(prompt("Digite total Mês 10"));
+    let M11 = Number(prompt("Digite total Mês 11"));
+    let M12 = Number(prompt("Digite total Mês 11"));
+   
+    let S1 = M1+M2+M3+M4+M5+M6;
+    let S2 = M7+M8+M9+M10+M11+M12;
+
+    document.getElementById("valores").innerHTML = "Loja: " + nome + "</br> Primeiro Semestre " + S1 + "</br> Segundo Semestre: " + S2;
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <em><strong><h1>Dados do Professor</h1></strong></em>
+    <div id="resultado"></div>
+<script>
+
+    let prof = prompt("Nome do Professor");
+    let cidade = prompt("Nome da cidade");
+    let cep = prompt("Número do CEP");
+    let unidadeFederal = prompt("Unidade Federal");
+    let rg = prompt("Registro Geral");
+    let cpf = prompt("CPF");
+    let datanasc = prompt("Digite a data de nascimento");
+    let escolaridade = prompt("Digite o Grau de escolaridade");
+    let Cursoleciona = prompt("Curso que Leciona");
+    let tel = prompt("Digite o telefone");
+
+    document.getElementById("resultado").innerHTML = "Nome do professor:" + prof + " </br>Cidade: " + cidade + "</br>CEP: " + cep + "<br/>Unidade Federal:" + unidadeFederal + "</br>Registro Geral: " + rg + "</br>Data de Nascimento: " + datanasc + "</br>CPF: " + cpf + "</br>Escolaridade: " +escolaridade + "</br>Curso que Leciona: " + Cursoleciona + "</br>Telefone: " + tel; 
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequência de um Aluno</title>
+</head>
+<body>
+    <strong><h1>Impressão de Notas e Frequência de aluno</h1></strong>
+    <div id="frequencia"></div>
+    <script>
+        let nomeAluno = prompt("Digite o nome do Aluno");
+        let disciplina = prompt("Digite o nome da Disciplina");
+        let n1 = Number(prompt("Digite primeira nota"));
+        let n2 = Number(prompt("Digite segunda nota"));
+        let n3 = Number(prompt("Digite terceira nota"));
+        let freq = Number(prompt("Digite a afrequência"));
+
+            document.getElementById("frequencia").innerHTML = "Disciplina: " + disciplina + " </br>Nome do Aluno: " + nomeAluno + " </br>Primeira Nota: " + n1 + " </br>Segunda Nota: " + n2 + " </br>Terceira Nota: " + n3 + " </br>Frequência: " + freq;
+    </script>
+</body>
+</html>
